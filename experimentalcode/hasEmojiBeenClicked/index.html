@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang=en-GB>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Teodor Merla" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="stylesheet.css" />
+  <script src="main.js"></script>
+  <!-- Remember to change when moving domain -->
+  <!-- Put all lines of code that use the following base code after the base code and put any
+       lines of code that are (for example) in the same folder as this file to avoid
+       having to write the full file path -->
+  <base href="E:\Programming\Web Design\teoweb\" target="_self" />
+  <link rel="icon" href="assets\classPhotosLol\tomkfavicon.ico" />
+  <title>demo: hasEmojiBeenClicked</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://kit.fontawesome.com/6d40cc0139.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<nav>
+  <div class="topnav">
+    <a href="experimentalcode\index.html"><i class="	far fa-arrow-alt-circle-left"></i> <br>experiments</a>
+  </div>
+</nav>
+</header>
+<br><br><br><br>
+
+<div class="emojiBox">
+<a id="changeEmoji" onclick="changeEmoji()"><i class="fas fa-grin-alt"></i></a>
+<p style="font-family:'Fuzzy Bubbles',cursive;display:block;"><i class="	fas fa-arrow-alt-circle-up"></i>
+ Click me! <i class="	fas fa-arrow-alt-circle-up"></i></p>
+</div>
+<br>
+
+<h3>HTML:</h3>
+<picture class="code wideimage">
+  <source srcset="experimentalcode\hasEmojiBeenClicked\assets\htmlcodemini.png" media="(max-width: 1000px)">
+  <source srcset="experimentalcode\hasEmojiBeenClicked\assets\htmlcode.png">
+  <img src="experimentalcode\hasEmojiBeenClicked\assets\htmlcode.png" alt="HTML Code">
+</picture>
+<div class="flex-container">
+<h3>CSS:</h3>
+<img class="code" src="experimentalcode\hasEmojiBeenClicked\assets\csscode.png" alt="CSS Code" style="float:right;"></img>
+</div>
+
+<div class="explanation">
+<p>This code is quite simple, making a div and styling it with CSS to align it, add a border
+and do some other general stuff. I decided not to use flexbox because it over-complicated some of the code and
+this is just supposed to be a test anyway. I used the ID from the &lt;<span style="color:red;">a</span>&gt;
+(which will also come up later) to align it to center, again just using text-align.</p>
+</div>
+
+<div style="float:left;">
+<h3>Javascript:</h3>
+<img class="code" src="experimentalcode\hasEmojiBeenClicked\assets\jscode.png" alt="Javascript Code"></img>
+</div>
+
+</body>
+</html>
